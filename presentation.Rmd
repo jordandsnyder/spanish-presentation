@@ -1,0 +1,50 @@
+---
+title: "Presentation for Spanish Class"
+author: "Jordan D. Snyder"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+  fontsize: 12pt
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=T,message=F)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+library(tidyverse)
+library(knitr)
+theme_replace(plot.title = element_text(size=14,hjust = 0),plot.subtitle = element_text(size=12,hjust = 0))
+```
+
+## Indirect and Direct Objects 
+
+Hola, clase! Hoy vamos a estudiar los pronombres de directo e indirecto. Los pronombres toman el lugar de sustantivos (i.e., nouns). Los pronombres de directo e indirecto son dos typos de los pronombres. 
+
+Un objeto recibe una accion del verbo. Los verbos afectan directamente los pronombres de objetos directos, pero, los verbos afectan indirectamente los pronombres de objetos indirectos. Ciertos verbos solo trabaja con los pronombes de directos. Por ejemplo, ver. Veo la puerta, o la veo. No puedo tener un objeto indirecto con el verbo ver. Pero, otros verbos usan comunmente con objetos indirectos. Por ejemplo, dar. Yo doy la vaca a Vanessa, o se la doy. Objetos tienen los pronombres, tambien. Hay un typo de pronombre por objectos directos y un typo de pronombre por  objectos indirectos. 
+
+```{r, include=TRUE, echo=FALSE}
+yo <- c("Yo", "Me", "Me")
+Tu <- c("Tu", "Te", "Te")
+El <- c("El/Ella/Ud.", "Lo/La", "Le")
+Nosotros <- c("Nosotros", "Nos", "Nos")
+Vosotros <- c("Vosotros", "Os", "Os")
+Ellos <- c("Ellos/Ellas/Uds.", "Los/Las", "Les")
+Object.Pronouns <- as.data.frame(rbind(yo,Tu,El,Nosotros,Vosotros,Ellos))
+rownames(Object.Pronouns) <- c()
+```
+
+```{r, echo=FALSE,include=TRUE}
+ kable(Object.Pronouns,col.names = c("Pronoun","Direct Object", "Indirect Object"),align = 'l')
+``` 
+   
+### Las Reglas
+Los pronombres de directos e indirectos tienen genero como los sustantivos. El genero del pronombre esta determinado por el sustantivo al que se refiere. Los pronombres vienen *antes de* el verbo. Por ejemplo, la doy. Cuando la oración tiene un verbo conjugado seguido de un verbo en forma de infinitivo, los pronombres se pueden adjuntar al final del infinitivo. Por ejemplo, tengo que darla. Por ejLos pronombres se pueden adjuntar a los finales de gerundios y imperativos positivos. Pero, los pronombres necesitan venir antes de imperativos negativos. 
+
+Los pronombres de indirectos vienen antes de los pronombres de objectos. Si hay un pronombre de directo y un pronombre de indirecto juntos y los dos empiezan con "l", el pronombre de indirecto cambia a "se". Por ejemplo, doy la vaca a Vanessa, se la doy...
+
+Preguntas?
+
+
