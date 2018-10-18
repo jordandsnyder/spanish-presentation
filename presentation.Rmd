@@ -41,9 +41,21 @@ rownames(Object.Pronouns) <- c()
 ``` 
    
 ### Las Reglas
-Los pronombres de directos e indirectos tienen genero como los sustantivos. El genero del pronombre esta determinado por el sustantivo al que se refiere. Los pronombres vienen *antes de* el verbo. Por ejemplo, la doy. Cuando la oración tiene un verbo conjugado seguido de un verbo en forma de infinitivo, los pronombres se pueden adjuntar al final del infinitivo. Por ejemplo, tengo que darla. Por ejLos pronombres se pueden adjuntar a los finales de gerundios y imperativos positivos. Pero, los pronombres necesitan venir antes de imperativos negativos. 
+Hay unas reglas usan los pronombres:
 
-Los pronombres de indirectos vienen antes de los pronombres de objectos. Si hay un pronombre de directo y un pronombre de indirecto juntos y los dos empiezan con "l", el pronombre de indirecto cambia a "se". Por ejemplo, doy la vaca a Vanessa, se la doy...
+1. Los pronombres de directos e indirectos tienen genero como los sustantivos. El genero del pronombre esta determinado por el sustantivo al que se refiere. 
+
+2. El lugar de los pronombres. Los pronombres pueden venir *antes de* el verbo. Por ejemplo, la doy. Cuando la oración tiene un verbo conjugado seguido de un verbo en forma de infinitivo, los pronombres se pueden adjuntar al final del infinitivo. Por ejemplo, tengo que darla. Por los pronombres se pueden adjuntar a los finales de gerundios y imperativos positivos. 
+
+Por ejemplo, estoy estudiandola o damelo!
+
+Pero, los pronombres necesitan venir antes de imperativos negativos. 
+
+No me lo da!
+
+3. Los pronombres de indirectos vienen antes de los pronombres de objectos. Si hay un pronombre de directo y un pronombre de indirecto juntos y los dos empiezan con "l", el pronombre de indirecto cambia a "se". 
+
+Por ejemplo, doy la vaca a Vanessa, se la doy o les presento Vanessa, se la presento.
 
 Preguntas?
 
